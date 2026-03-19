@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+class Person {
+		public:
+		string firstName;
+		string lastName;
+		string address;
+		string city;
+		//store zip as string per standard practice - some zip codes start with 0
+		string zip;
+
+
+	};
+
+int main() {
+
+	Person person01;
+
+	person01.firstName = "John";
+	person01.lastName = "Smith";
+	person01.address = "123 Fake Street";
+	person01.city = "Washington";
+	person01.zip = "20005";
+
+
+	cout << person01.firstName << " " << person01.lastName << " lives at " << person01.address << " in " << "\n"
+			<< person01.city << ".";
+	cout << "Their zip code is " << person01.zip;
+}
