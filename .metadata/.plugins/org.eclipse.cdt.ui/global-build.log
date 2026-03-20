@@ -1,5 +1,10 @@
-21:17:59 **** Incremental Build of configuration Debug for project CT_1_Mod_1 ****
+21:40:52 **** Incremental Build of configuration Debug for project CT_1_Mod_2 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CSC450_CT1_mod1-1.o "..\\CSC450_CT1_mod1-1.cpp" 
-g++ -o CT_1_Mod_1.exe CSC450_CT1_mod1-1.o 
-Info: Nothing to build for CT_1_Mod_1
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CSC450_CT1_mod1-2.o "..\\CSC450_CT1_mod1-2.cpp" 
+g++ -o CT_1_Mod_2.exe CSC450_CT1_mod1-2.o 
+Info: Nothing to build for CT_1_Mod_2
+21:41:37 **** Incremental Build of configuration Debug for project CT_1_Mod_2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CSC450_CT1_mod1-2.o "..\\CSC450_CT1_mod1-2.cpp" 
+g++ -o CT_1_Mod_2.exe CSC450_CT1_mod1-2.o 
+Info: Nothing to build for CT_1_Mod_2

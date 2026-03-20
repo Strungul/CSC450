@@ -1,5 +1,5 @@
 /* Simple Program with a few Errors for Correction
- * Please be sure to correct all outlined errors. */ // << added end of block comment.
+ * Please be sure to correct all outlined errors. */ // << added end of block comment.  Also had to add * on the second line or it wouldn't get rid of the error
 
 
 #include<iostream>
