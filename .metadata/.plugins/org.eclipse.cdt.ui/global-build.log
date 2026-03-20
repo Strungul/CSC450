@@ -1,28 +1,5 @@
-20:51:14 **** Rebuild of configuration Debug for project CSC450_CT_1 ****
+21:17:59 **** Incremental Build of configuration Debug for project CT_1_Mod_1 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o CSC450_CT_1.exe main.o 
-20:58:53 **** Incremental Build of configuration Debug for project CSC450_CT_1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o CSC450_CT_1.exe main.o 
-22:20:01 **** Incremental Build of configuration Debug for project CSC450_CT_1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o CSC450_CT_1.exe main.o 
-Info: Nothing to build for CSC450_CT_1
-22:46:20 **** Incremental Build of configuration Debug for project CSC450_CT_1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o CSC450_CT_1.exe main.o 
-Info: Nothing to build for CSC450_CT_1
-22:50:53 **** Incremental Build of configuration Debug for project CSC450_CT_1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o CSC450_CT_1.exe main.o 
-Info: Nothing to build for CSC450_CT_1
-23:07:12 **** Incremental Build of configuration Debug for project CSC450_CT_1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-g++ -o CSC450_CT_1.exe main.o 
-Info: Nothing to build for CSC450_CT_1
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CSC450_CT1_mod1-1.o "..\\CSC450_CT1_mod1-1.cpp" 
+g++ -o CT_1_Mod_1.exe CSC450_CT1_mod1-1.o 
+Info: Nothing to build for CT_1_Mod_1
