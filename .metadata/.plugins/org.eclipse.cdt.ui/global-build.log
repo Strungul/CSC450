@@ -28,3 +28,651 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 g++ -o CSC450_CT_2.exe main.o 
 Info: Nothing to build for CSC450_CT_2
+06:03:36 **** Rebuild of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:6:9: error: 'string' was not declared in this scope
+    6 |         string stringOne;
+      |         ^~~~~~
+..\main.cpp:6:9: note: suggested alternatives:
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/iosfwd:43,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/ios:42,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:43,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/ostream:42,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/iostream:43,
+                 from ..\main.cpp:2:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stringfwd.h:79:33: note:   'std::string'
+   79 |   typedef basic_string<char>    string;
+      |                                 ^~~~~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_classes.h:42,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/ios_base.h:43,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/ios:46:
+C:/msys64/ucrt64/include/c++/15.2.0/string:80:11: note:   'std::pmr::string'
+   80 |     using string    = basic_string<char>;
+      |           ^~~~~~
+..\main.cpp:9:9: error: 'cout' was not declared in this scope; did you mean 'std::cout'?
+    9 |         cout << "Please select if you would like liver for breakfast (enter y\n";
+      |         ^~~~
+      |         std::cout
+C:/msys64/ucrt64/include/c++/15.2.0/iostream:65:18: note: 'std::cout' declared here
+   65 |   extern ostream cout;          ///< Linked to standard output
+      |                  ^~~~
+06:05:24 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Discussion_Forum_Tests.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+06:07:39 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:15:17: error: expected ';' before '}' token
+   15 |         return 0
+      |                 ^
+      |                 ;
+   16 | }
+      | ~                
+06:08:02 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Discussion_Forum_Tests.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+19:55:25 **** Rebuild of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Discussion_Forum_Tests.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+19:58:05 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Discussion_Forum_Tests.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+22:42:59 **** Rebuild of configuration Debug for project CSC450_CT_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_1.exe main.o 
+22:43:00 **** Rebuild of configuration Debug for project CSC450_CT_2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_2.exe main.o 
+22:43:01 **** Rebuild of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/libmingw32.a(lib64_libmingw32_a-crtexewin.o): in function `main':
+D:/W/B/src/mingw-w64/mingw-w64-crt/crt/crtexewin.c:62:(.text.startup+0xb6): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+22:43:02 **** Rebuild of configuration Debug for project CT_1_Mod_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CSC450_CT1_mod1-1.o "..\\CSC450_CT1_mod1-1.cpp" 
+g++ -o CT_1_Mod_1.exe CSC450_CT1_mod1-1.o 
+22:43:03 **** Rebuild of configuration Debug for project CT_1_Mod_2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CSC450_CT1_mod1-2.o "..\\CSC450_CT1_mod1-2.cpp" 
+g++ -o CT_1_Mod_2.exe CSC450_CT1_mod1-2.o 
+Info: Nothing to build for Discussion_Forum_Tests
+20:16:47 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:22:25: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+   22 |                 *ptr1 = new int;
+      |                         ^~~~~~~
+      |                         |
+      |                         int*
+..\main.cpp:22:25: note: possible fix: dereference with '*'
+   22 |                 *ptr1 = new int;
+      |                         ^~~~~~~
+      |                         *
+..\main.cpp:34:45: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and 'const std::invalid_argument')
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^~ ~
+      |                      |                         |
+      |                      std::basic_ostream<char>  const std::invalid_argument
+..\main.cpp:34:45: note: there are 33 candidates
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/ostream:42,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/iostream:43,
+                 from ..\main.cpp:7:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:116:7: note: candidate 1: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ostream_type& (*)(__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  116 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:116:36: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+  116 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:125:7: note: candidate 2: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ios_type& (*)(__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; __ios_type = std::basic_ios<char>]'
+  125 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:125:32: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+  125 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:135:7: note: candidate 3: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  135 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:135:30: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'std::ios_base& (*)(std::ios_base&)'
+  135 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:174:7: note: candidate 4: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  174 |       operator<<(long __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:174:23: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'long int'
+  174 |       operator<<(long __n)
+      |                  ~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:178:7: note: candidate 5: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  178 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:178:32: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'long unsigned int'
+  178 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:182:7: note: candidate 6: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  182 |       operator<<(bool __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:182:23: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'bool'
+  182 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/ostream:294:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:100:5: note: candidate 7: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+  100 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:101:22: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'short int'
+  101 |     operator<<(short __n)
+      |                ~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:189:7: note: candidate 8: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  189 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:189:33: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'short unsigned int'
+  189 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:114:5: note: candidate 9: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+  114 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:115:20: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'int'
+  115 |     operator<<(int __n)
+      |                ~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:200:7: note: candidate 10: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  200 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:200:31: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'unsigned int'
+  200 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:211:7: note: candidate 11: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  211 |       operator<<(long long __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:211:28: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'long long int'
+  211 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:215:7: note: candidate 12: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  215 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:215:37: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'long long unsigned int'
+  215 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:231:7: note: candidate 13: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  231 |       operator<<(double __f)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:231:25: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'double'
+  231 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:235:7: note: candidate 14: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  235 |       operator<<(float __f)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:235:24: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'float'
+  235 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:243:7: note: candidate 15: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  243 |       operator<<(long double __f)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:243:30: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'long double'
+  243 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:301:7: note: candidate 16: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  301 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:301:30: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'const void*'
+  301 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:306:7: note: candidate 17: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]'
+  306 |       operator<<(nullptr_t)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:306:18: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'std::nullptr_t'
+  306 |       operator<<(nullptr_t)
+      |                  ^~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:128:5: note: candidate 18: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; __streambuf_type = std::basic_streambuf<char>]'
+  128 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:129:34: note: no known conversion for argument 1 from 'const std::invalid_argument' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+  129 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:51,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/string:56,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_classes.h:42,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/ios_base.h:43,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/ios:46,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:43:
+C:/msys64/ucrt64/include/c++/15.2.0/string_view:767:5: note: candidate 19: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, basic_string_view<_CharT, _Traits>)'
+  767 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/string_view:767:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   'std::invalid_argument' is not derived from 'std::basic_string_view<_CharT, _Traits>'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:4367:5: note: candidate 20: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 4367 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:4367:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   'const std::invalid_argument' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/bits/memory_resource.h:40,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/string:72:
+C:/msys64/ucrt64/include/c++/15.2.0/cstddef:130:5: note: candidate 21: 'template<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(byte, _IntegerType)'
+  130 |     operator<<(byte __b, _IntegerType __shift) noexcept
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/cstddef:130:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:22: note:   cannot convert 'std::operator<< <char_traits<char> >(std::cout, ((const char*)"Invalid integer: "))' (type 'std::basic_ostream<char>') to type 'std::byte'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                 ~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/bits/ios_base.h:48:
+C:/msys64/ucrt64/include/c++/15.2.0/system_error:341:5: note: candidate 22: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const error_code&)'
+  341 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/system_error:341:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   cannot convert 'e' (type 'const std::invalid_argument') to type 'const std::error_code&'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:626:5: note: candidate 23: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _CharT)'
+  626 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:626:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   deduced conflicting types for parameter '_CharT' ('char' and 'std::invalid_argument')
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:636:5: note: candidate 24: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, char)'
+  636 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:636:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   cannot convert 'e' (type 'const std::invalid_argument') to type 'char'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:642:5: note: candidate 25: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, char)'
+  642 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:642:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   cannot convert 'e' (type 'const std::invalid_argument') to type 'char'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:653:5: note: candidate 26: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, signed char)'
+  653 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:653:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   cannot convert 'e' (type 'const std::invalid_argument') to type 'signed char'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:658:5: note: candidate 27: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, unsigned char)'
+  658 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:658:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   cannot convert 'e' (type 'const std::invalid_argument') to type 'unsigned char'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:717:5: note: candidate 28: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const _CharT*)'
+  717 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:717:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   mismatched types 'const _CharT*' and 'std::invalid_argument'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:311:5: note: candidate 29: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const char*)'
+  311 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:311:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   cannot convert 'e' (type 'const std::invalid_argument') to type 'const char*'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:734:5: note: candidate 30: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const char*)'
+  734 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:734:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   cannot convert 'e' (type 'const std::invalid_argument') to type 'const char*'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:747:5: note: candidate 31: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const signed char*)'
+  747 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:747:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   cannot convert 'e' (type 'const std::invalid_argument') to type 'const signed char*'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:752:5: note: candidate 32: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const unsigned char*)'
+  752 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:752:5: note: template argument deduction/substitution failed:
+..\main.cpp:34:48: note:   cannot convert 'e' (type 'const std::invalid_argument') to type 'const unsigned char*'
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:836:5: note: candidate 33: 'template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)'
+  836 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:836:5: note: template argument deduction/substitution failed:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h: In substitution of 'template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::invalid_argument]':
+..\main.cpp:34:34:   required from here
+   34 |                 cout << "Invalid integer: " << e << endl;
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:836:5: error: no type named 'type' in 'struct std::enable_if<false, void>'
+  836 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+..\main.cpp:36:46: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and 'const std::out_of_range')
+   36 |                 cout << "Number is too long" << e << endl;
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^~ ~
+      |                      |                          |
+      |                      std::basic_ostream<char>   const std::out_of_range
+..\main.cpp:36:46: note: there are 33 candidates
+   36 |                 cout << "Number is too long" << e << endl;
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:116:7: note: candidate 1: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ostream_type& (*)(__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  116 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:116:36: note: no known conversion for argument 1 from 'const std::out_of_range' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)' {aka 'std::basic_ostream<char>& (*)(std::basic_ostream<char>&)'}
+  116 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:125:7: note: candidate 2: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ios_type& (*)(__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; __ios_type = std::basic_ios<char>]'
+  125 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:125:32: note: no known conversion for argument 1 from 'const std::out_of_range' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)' {aka 'std::basic_ios<char>& (*)(std::basic_ios<char>&)'}
+  125 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:135:7: note: candidate 3: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  135 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:135:30: note: no known conversion for argument 1 from 'const std::out_of_range' to 'std::ios_base& (*)(std::ios_base&)'
+  135 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:174:7: note: candidate 4: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  174 |       operator<<(long __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:174:23: note: no known conversion for argument 1 from 'const std::out_of_range' to 'long int'
+  174 |       operator<<(long __n)
+      |                  ~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:178:7: note: candidate 5: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  178 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:178:32: note: no known conversion for argument 1 from 'const std::out_of_range' to 'long unsigned int'
+  178 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:182:7: note: candidate 6: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  182 |       operator<<(bool __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:182:23: note: no known conversion for argument 1 from 'const std::out_of_range' to 'bool'
+  182 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:100:5: note: candidate 7: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]'
+  100 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:101:22: note: no known conversion for argument 1 from 'const std::out_of_range' to 'short int'
+  101 |     operator<<(short __n)
+      |                ~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:189:7: note: candidate 8: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  189 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:189:33: note: no known conversion for argument 1 from 'const std::out_of_range' to 'short unsigned int'
+  189 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:114:5: note: candidate 9: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]'
+  114 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:115:20: note: no known conversion for argument 1 from 'const std::out_of_range' to 'int'
+  115 |     operator<<(int __n)
+      |                ~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:200:7: note: candidate 10: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  200 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:200:31: note: no known conversion for argument 1 from 'const std::out_of_range' to 'unsigned int'
+  200 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:211:7: note: candidate 11: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  211 |       operator<<(long long __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:211:28: note: no known conversion for argument 1 from 'const std::out_of_range' to 'long long int'
+  211 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:215:7: note: candidate 12: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  215 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:215:37: note: no known conversion for argument 1 from 'const std::out_of_range' to 'long long unsigned int'
+  215 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:231:7: note: candidate 13: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  231 |       operator<<(double __f)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:231:25: note: no known conversion for argument 1 from 'const std::out_of_range' to 'double'
+  231 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:235:7: note: candidate 14: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  235 |       operator<<(float __f)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:235:24: note: no known conversion for argument 1 from 'const std::out_of_range' to 'float'
+  235 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:243:7: note: candidate 15: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  243 |       operator<<(long double __f)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:243:30: note: no known conversion for argument 1 from 'const std::out_of_range' to 'long double'
+  243 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:301:7: note: candidate 16: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]'
+  301 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:301:30: note: no known conversion for argument 1 from 'const std::out_of_range' to 'const void*'
+  301 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:306:7: note: candidate 17: 'std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]'
+  306 |       operator<<(nullptr_t)
+      |       ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:306:18: note: no known conversion for argument 1 from 'const std::out_of_range' to 'std::nullptr_t'
+  306 |       operator<<(nullptr_t)
+      |                  ^~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:128:5: note: candidate 18: 'std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; __streambuf_type = std::basic_streambuf<char>]'
+  128 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:129:34: note: no known conversion for argument 1 from 'const std::out_of_range' to 'std::basic_ostream<char>::__streambuf_type*' {aka 'std::basic_streambuf<char>*'}
+  129 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/string_view:767:5: note: candidate 19: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, basic_string_view<_CharT, _Traits>)'
+  767 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/string_view:767:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   'std::out_of_range' is not derived from 'std::basic_string_view<_CharT, _Traits>'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:4367:5: note: candidate 20: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 4367 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:4367:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   'const std::out_of_range' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/cstddef:130:5: note: candidate 21: 'template<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(byte, _IntegerType)'
+  130 |     operator<<(byte __b, _IntegerType __shift) noexcept
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/cstddef:130:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:22: note:   cannot convert 'std::operator<< <char_traits<char> >(std::cout, ((const char*)"Number is too long"))' (type 'std::basic_ostream<char>') to type 'std::byte'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                 ~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/system_error:341:5: note: candidate 22: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const error_code&)'
+  341 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/system_error:341:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   cannot convert 'e' (type 'const std::out_of_range') to type 'const std::error_code&'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:626:5: note: candidate 23: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _CharT)'
+  626 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:626:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   deduced conflicting types for parameter '_CharT' ('char' and 'std::out_of_range')
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:636:5: note: candidate 24: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, char)'
+  636 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:636:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   cannot convert 'e' (type 'const std::out_of_range') to type 'char'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:642:5: note: candidate 25: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, char)'
+  642 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:642:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   cannot convert 'e' (type 'const std::out_of_range') to type 'char'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:653:5: note: candidate 26: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, signed char)'
+  653 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:653:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   cannot convert 'e' (type 'const std::out_of_range') to type 'signed char'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:658:5: note: candidate 27: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, unsigned char)'
+  658 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:658:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   cannot convert 'e' (type 'const std::out_of_range') to type 'unsigned char'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:717:5: note: candidate 28: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const _CharT*)'
+  717 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:717:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   mismatched types 'const _CharT*' and 'std::out_of_range'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:311:5: note: candidate 29: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const char*)'
+  311 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc:311:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   cannot convert 'e' (type 'const std::out_of_range') to type 'const char*'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:734:5: note: candidate 30: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const char*)'
+  734 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:734:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   cannot convert 'e' (type 'const std::out_of_range') to type 'const char*'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:747:5: note: candidate 31: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const signed char*)'
+  747 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:747:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   cannot convert 'e' (type 'const std::out_of_range') to type 'const signed char*'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:752:5: note: candidate 32: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const unsigned char*)'
+  752 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:752:5: note: template argument deduction/substitution failed:
+..\main.cpp:36:49: note:   cannot convert 'e' (type 'const std::out_of_range') to type 'const unsigned char*'
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:836:5: note: candidate 33: 'template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)'
+  836 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:836:5: note: template argument deduction/substitution failed:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h: In substitution of 'template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::out_of_range]':
+..\main.cpp:36:35:   required from here
+   36 |                 cout << "Number is too long" << e << endl;
+      |                                                 ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:836:5: error: no type named 'type' in 'struct std::enable_if<false, void>'
+  836 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+..\main.cpp:14:21: warning: unused variable 'input2' [-Wunused-variable]
+   14 |         int input1, input2, input3;
+      |                     ^~~~~~
+..\main.cpp:14:29: warning: unused variable 'input3' [-Wunused-variable]
+   14 |         int input1, input2, input3;
+      |                             ^~~~~~
+15:48:34 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int safeAssign(int*&, std::string)':
+..\main.cpp:24:35: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+   24 |                         ptr = stoi(sInput);
+      |                               ~~~~^~~~~~~~
+      |                                   |
+      |                                   int
+15:49:27 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_3.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+Info: Nothing to build for CSC450_CT_3
+17:07:49 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_3.exe main.o 
+Info: Nothing to build for CSC450_CT_3
+17:25:23 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_3.exe main.o 
+Info: Nothing to build for CSC450_CT_3
+17:28:22 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CSC450_CT_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:29:41 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CSC450_CT_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:30:05 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CSC450_CT_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:32:24 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CSC450_CT_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:33:57 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CSC450_CT_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:37:45 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CSC450_CT_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:40:08 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CSC450_CT_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:42:35 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CSC450_CT_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:44:14 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -o CSC450_CT_3.exe main.o 
+C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CSC450_CT_3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:46:03 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -o CSC450_CT_3.exe main.o 
+Info: Nothing to build for CSC450_CT_3
+17:51:44 **** Incremental Build of configuration Debug for project CSC450_CT_3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_CT_3.exe main.o 
+Info: Nothing to build for CSC450_CT_3
