@@ -4,20 +4,33 @@
 
 #include <iostream>
 #include <string>
+#include <thread>
+#include <chrono>
 
 using namespace std;
 
+void function(int funcNum, int sleepTime){
+	cout << "Starting function " << funcNum << "." << endl;
+	this_thread::sleep_for(chrono::seconds(sleepTime));
+	cout << "Ending function  " << funcNum << "." << endl;
+
+}
+
+
 int main() {
 
-	int array[3] = {1,2,3};
-	int* pointer = array;
-	cout << *pointer << endl;; //will print 1
-	cout << *(pointer + 1) << endl; // will print 2
-	cout << array[2] << endl; //will print 3
-	int five = *(pointer + 1) + array[2];
-	cout << five; //will print 5
+	cout << "Main Application Starting." << endl;
+
+	thread a(function, 1, 5);
+	for (int i = 0; i < 10; i++){
+			thread b(function, 2, 4);
+			b.detach();
+	}
+
+	a.join();
 
 
+	cout << "Main application completed." << endl;
 	return 0;
 }
 

@@ -676,3 +676,426 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 g++ -o CSC450_CT_3.exe main.o 
 Info: Nothing to build for CSC450_CT_3
+17:32:27 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Discussion_Forum_Tests.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+Info: Nothing to build for Discussion_Forum_Tests
+19:55:20 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:22:18: error: invalid use of void expression
+   22 | thread a(function(1, 5));
+      |          ~~~~~~~~^~~~~~
+..\main.cpp:23:18: error: invalid use of void expression
+   23 | thread b(function(2, 1));
+      |          ~~~~~~~~^~~~~~
+19:59:36 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Discussion_Forum_Tests.exe main.o 
+20:02:34 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Discussion_Forum_Tests.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+20:05:37 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Discussion_Forum_Tests.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+20:08:39 **** Incremental Build of configuration Debug for project Discussion_Forum_Tests ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Discussion_Forum_Tests.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+08:27:50 **** Rebuild of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:20:9: error: 'filesystem' has not been declared
+   20 |         filesystem::path filePath = "C:\Users\CWFoo\eclipse-workspace_cpp\CSC460_CT_5";
+      |         ^~~~~~~~~~
+..\main.cpp:21:13: error: 'filesystem' has not been declared
+   21 |         if (filesystem::exists(filePath)){
+      |             ^~~~~~~~~~
+..\main.cpp:21:32: error: 'filePath' was not declared in this scope
+   21 |         if (filesystem::exists(filePath)){
+      |                                ^~~~~~~~
+08:45:55 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:21:37: error: incomplete universal character name \U
+   21 |         filesystem::path filePath = "C:\Users\CWFoo\eclipse-workspace_cpp\CSC460_CT_5";
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.cpp:21:37: warning: unknown escape sequence: '\C'
+..\main.cpp:21:37: warning: unknown escape sequence: '\C'
+08:51:56 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:21:41: error: invalid character '\' in raw string delimiter
+   21 |         filesystem::path filePath = R"C:\Users\CWFoo\eclipse-workspace_cpp\CSC460_CT_5";
+      |                                     ^    
+..\main.cpp:21:37: error: stray 'R' in program
+   21 |         filesystem::path filePath = R"C:\Users\CWFoo\eclipse-workspace_cpp\CSC460_CT_5";
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.cpp: In function 'int main()':
+..\main.cpp:21:88: error: expected primary-expression before ';' token
+   21 |         filesystem::path filePath = R"C:\Users\CWFoo\eclipse-workspace_cpp\CSC460_CT_5";
+      |                                                                                        ^
+08:52:54 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for Discussion_Forum_Tests
+Info: Nothing to build for CSC460_CT_5
+08:56:57 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:23:29: error: no match for 'operator+' (operand types are 'std::filesystem::__cxx11::path' and 'std::string' {aka 'std::__cxx11::basic_string<char>'})
+   23 |         filePath = filePath + fileName;
+      |                    ~~~~~~~~ ^ ~~~~~~~~
+      |                    |          |
+      |                    |          std::string {aka std::__cxx11::basic_string<char>}
+      |                    std::filesystem::__cxx11::path
+..\main.cpp:23:29: note: there are 14 candidates
+   23 |         filePath = filePath + fileName;
+      |                    ~~~~~~~~~^~~~~~~~~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/string:50,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_classes.h:42,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/ios_base.h:43,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/ios:46,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:43,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/ostream:42,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/iostream:43,
+                 from ..\main.cpp:8:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h:629:5: note: candidate 1: 'template<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename reverse_iterator<_Iterator>::difference_type, const reverse_iterator<_Iterator>&)'
+  629 |     operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h:629:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::reverse_iterator<_Iterator>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h:1793:5: note: candidate 2: 'template<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename move_iterator<_IteratorL>::difference_type, const move_iterator<_IteratorL>&)'
+ 1793 |     operator+(typename move_iterator<_Iterator>::difference_type __n,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h:1793:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::string' {aka 'std::__cxx11::basic_string<char>'} is not derived from 'const std::move_iterator<_IteratorL>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/string:56:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3840:5: note: candidate 3: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Alloc>&, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 3840 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3840:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3858:5: note: candidate 4: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 3858 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3858:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   mismatched types 'const _CharT*' and 'std::filesystem::__cxx11::path'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3877:5: note: candidate 5: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 3877 |     operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Alloc>& __rhs)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3877:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   deduced conflicting types for parameter '_CharT' ('std::filesystem::__cxx11::path' and 'char')
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3894:5: note: candidate 6: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)'
+ 3894 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3894:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3912:5: note: candidate 7: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)'
+ 3912 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3912:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3924:5: note: candidate 8: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 3924 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3924:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::filesystem::__cxx11::path' is not derived from 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3931:5: note: candidate 9: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Alloc>&, __cxx11::basic_string<_CharT, _Traits, _Alloc>&&)'
+ 3931 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3931:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3938:5: note: candidate 10: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, __cxx11::basic_string<_CharT, _Traits, _Alloc>&&)'
+ 3938 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3938:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::filesystem::__cxx11::path' is not derived from 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3961:5: note: candidate 11: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, __cxx11::basic_string<_CharT, _Traits, _Alloc>&&)'
+ 3961 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3961:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   mismatched types 'const _CharT*' and 'std::filesystem::__cxx11::path'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3968:5: note: candidate 12: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, __cxx11::basic_string<_CharT, _Traits, _Alloc>&&)'
+ 3968 |     operator+(_CharT __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3968:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   deduced conflicting types for parameter '_CharT' ('std::filesystem::__cxx11::path' and 'char')
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3975:5: note: candidate 13: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)'
+ 3975 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3975:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::filesystem::__cxx11::path' is not derived from 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3982:5: note: candidate 14: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)'
+ 3982 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3982:5: note: template argument deduction/substitution failed:
+..\main.cpp:23:31: note:   'std::filesystem::__cxx11::path' is not derived from 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   23 |         filePath = filePath + fileName;
+      |                               ^~~~~~~~
+08:59:27 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:23:19: error: expected primary-expression before '/' token
+   23 |         filePath =/ fileName;
+      |                   ^
+08:59:51 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+09:00:24 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+11:55:46 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+13:19:01 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:36: error: expected identifier before ')' token
+   15 | int reverse(filesystem::path file, ){
+      |                                    ^
+..\main.cpp: In function 'int reverse(std::filesystem::__cxx11::path, int)':
+..\main.cpp:17:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   17 | }
+      | ^
+..\main.cpp: In function 'int main()':
+..\main.cpp:28:43: error: no match for 'operator+' (operand types are 'std::filesystem::__cxx11::path' and 'std::filesystem::__cxx11::path')
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                  ~~~~~~~~ ^ ~~~~~~~~
+      |                                  |          |
+      |                                  |          std::filesystem::__cxx11::path
+      |                                  std::filesystem::__cxx11::path
+..\main.cpp:28:43: note: there are 14 candidates
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                  ~~~~~~~~~^~~~~~~~~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/string:50,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_classes.h:42,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/ios_base.h:43,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/ios:46,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:43,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/ostream:42,
+                 from C:/msys64/ucrt64/include/c++/15.2.0/iostream:43,
+                 from ..\main.cpp:8:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h:629:5: note: candidate 1: 'template<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename reverse_iterator<_Iterator>::difference_type, const reverse_iterator<_Iterator>&)'
+  629 |     operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h:629:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::reverse_iterator<_Iterator>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h:1793:5: note: candidate 2: 'template<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename move_iterator<_IteratorL>::difference_type, const move_iterator<_IteratorL>&)'
+ 1793 |     operator+(typename move_iterator<_Iterator>::difference_type __n,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h:1793:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::move_iterator<_IteratorL>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/string:56:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3840:5: note: candidate 3: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Alloc>&, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 3840 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3840:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3858:5: note: candidate 4: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 3858 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3858:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   mismatched types 'const _CharT*' and 'std::filesystem::__cxx11::path'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3877:5: note: candidate 5: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 3877 |     operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Alloc>& __rhs)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3877:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3894:5: note: candidate 6: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)'
+ 3894 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3894:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3912:5: note: candidate 7: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)'
+ 3912 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3912:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3924:5: note: candidate 8: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const __cxx11::basic_string<_CharT, _Traits, _Alloc>&)'
+ 3924 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3924:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3931:5: note: candidate 9: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const __cxx11::basic_string<_CharT, _Traits, _Alloc>&, __cxx11::basic_string<_CharT, _Traits, _Alloc>&&)'
+ 3931 |     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3931:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3938:5: note: candidate 10: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, __cxx11::basic_string<_CharT, _Traits, _Alloc>&&)'
+ 3938 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3938:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3961:5: note: candidate 11: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, __cxx11::basic_string<_CharT, _Traits, _Alloc>&&)'
+ 3961 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3961:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   mismatched types 'const _CharT*' and 'std::filesystem::__cxx11::path'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3968:5: note: candidate 12: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, __cxx11::basic_string<_CharT, _Traits, _Alloc>&&)'
+ 3968 |     operator+(_CharT __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3968:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3975:5: note: candidate 13: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)'
+ 3975 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3975:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3982:5: note: candidate 14: 'template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)'
+ 3982 |     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     ^~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h:3982:5: note: template argument deduction/substitution failed:
+..\main.cpp:28:45: note:   'std::filesystem::__cxx11::path' is not derived from 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   28 |         filesystem:: path file = filePath + fileName;
+      |                                             ^~~~~~~~
+13:20:07 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:36: error: expected identifier before ')' token
+   15 | int reverse(filesystem::path file, ){
+      |                                    ^
+..\main.cpp: In function 'int reverse(std::filesystem::__cxx11::path, int)':
+..\main.cpp:17:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   17 | }
+      | ^
+13:20:41 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+13:24:47 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+13:30:09 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:26:40: error: incomplete universal character name \U
+   26 |         filesystem:: path filePath = R("C:\Users\CWFoo\eclipse-workspace_cpp\CSC460_CT_5");
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.cpp:26:40: warning: unknown escape sequence: '\C'
+..\main.cpp:26:40: warning: unknown escape sequence: '\C'
+..\main.cpp:26:38: error: 'R' was not declared in this scope
+   26 |         filesystem:: path filePath = R("C:\Users\CWFoo\eclipse-workspace_cpp\CSC460_CT_5");
+      |                                      ^
+13:31:36 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+18:34:43 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+18:53:44 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+19:02:13 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int writeReverse(std::filesystem::__cxx11::path, std::filesystem::__cxx11::path)':
+..\main.cpp:28:17: error: no match for call to '(std::string {aka std::__cxx11::basic_string<char>}) (std::istreambuf_iterator<char, std::char_traits<char> >, std::istreambuf_iterator<char, std::char_traits<char> >)'
+   28 |         fileData((istreambuf_iterator<char>(inFile)), istreambuf_iterator<char>());
+      |         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+19:06:14 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+19:09:49 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+19:19:10 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+19:25:28 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
+19:30:23 **** Incremental Build of configuration Debug for project CSC460_CT_5 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC460_CT_5.exe main.o 
+Info: Nothing to build for CSC460_CT_5
