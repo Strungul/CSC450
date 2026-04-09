@@ -1099,3 +1099,93 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 g++ -o CSC460_CT_5.exe main.o 
 Info: Nothing to build for CSC460_CT_5
+Info: Nothing to build for CSC460_CT_5
+07:33:44 **** Rebuild of configuration Debug for project CSC450_Portfolio_Project_Part_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int count(int*, int, char)':
+..\main.cpp:43:25: warning: value computed is not used [-Wunused-value]
+   43 |                         *(counter)--;
+      |                         ^~~~~~~~~~~~
+..\main.cpp: In function 'int main()':
+..\main.cpp:55:39: error: expected primary-expression before ',' token
+   55 |         thread a(count, countVariable&, 20);
+      |                                       ^
+Info: Nothing to build for CSC460_CT_5
+07:39:57 **** Incremental Build of configuration Debug for project CSC450_Portfolio_Project_Part_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int countPrint(int*, int, char)':
+..\main.cpp:43:25: warning: value computed is not used [-Wunused-value]
+   43 |                         *(counter)--;
+      |                         ^~~~~~~~~~~~
+In file included from C:/msys64/ucrt64/include/c++/15.2.0/thread:47,
+                 from ..\main.cpp:13:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/std_thread.h: In instantiation of 'std::thread::thread(_Callable&&, _Args&& ...) [with _Callable = int (&)(int*, int, char); _Args = {int*, int}; <template-parameter-1-3> = void]':
+..\main.cpp:55:41:   required from here
+   55 |         thread a(countPrint, &countVariable, 20);
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/std_thread.h:168:72: error: static assertion failed: std::thread arguments must be invocable after conversion to rvalues
+  168 |                                       typename decay<_Args>::type...>::value,
+      |                                                                        ^~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/std_thread.h:168:72: note: 'std::integral_constant<bool, false>::value' evaluates to false
+C:/msys64/ucrt64/include/c++/15.2.0/bits/std_thread.h: In instantiation of 'struct std::thread::_Invoker<std::tuple<int (*)(int*, int, char), int*, int> >':
+C:/msys64/ucrt64/include/c++/15.2.0/bits/std_thread.h:247:13:   required from 'struct std::thread::_State_impl<std::thread::_Invoker<std::tuple<int (*)(int*, int, char), int*, int> > >'
+  247 |         _Callable               _M_func;
+      |                                 ^~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/std_thread.h:175:29:   required from 'std::thread::thread(_Callable&&, _Args&& ...) [with _Callable = int (&)(int*, int, char); _Args = {int*, int}; <template-parameter-1-3> = void]'
+  175 |         _M_start_thread(_State_ptr(new _State_impl<_Wrapper>(
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  176 |               std::forward<_Callable>(__f), std::forward<_Args>(__args)...)),
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.cpp:55:41:   required from here
+   55 |         thread a(countPrint, &countVariable, 20);
+      |                                                ^
+C:/msys64/ucrt64/include/c++/15.2.0/bits/std_thread.h:302:11: error: no type named 'type' in 'struct std::thread::_Invoker<std::tuple<int (*)(int*, int, char), int*, int> >::__result<std::tuple<int (*)(int*, int, char), int*, int> >'
+  302 |           _M_invoke(_Index_tuple<_Ind...>)
+      |           ^~~~~~~~~
+C:/msys64/ucrt64/include/c++/15.2.0/bits/std_thread.h:306:9: error: no type named 'type' in 'struct std::thread::_Invoker<std::tuple<int (*)(int*, int, char), int*, int> >::__result<std::tuple<int (*)(int*, int, char), int*, int> >'
+  306 |         operator()()
+      |         ^~~~~~~~
+07:41:16 **** Incremental Build of configuration Debug for project CSC450_Portfolio_Project_Part_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int countPrint(int*, int, char)':
+..\main.cpp:43:25: warning: value computed is not used [-Wunused-value]
+   43 |                         *(counter)--;
+      |                         ^~~~~~~~~~~~
+g++ -o CSC450_Portfolio_Project_Part_1.exe main.o 
+Info: Nothing to build for CSC450_Portfolio_Project_Part_1
+07:44:33 **** Incremental Build of configuration Debug for project CSC450_Portfolio_Project_Part_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int countPrint(int*, int, char)':
+..\main.cpp:43:25: warning: value computed is not used [-Wunused-value]
+   43 |                         *(counter)--;
+      |                         ^~~~~~~~~~~~
+g++ -o CSC450_Portfolio_Project_Part_1.exe main.o 
+Info: Nothing to build for CSC450_Portfolio_Project_Part_1
+07:45:13 **** Incremental Build of configuration Debug for project CSC450_Portfolio_Project_Part_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int countPrint(int*, int, char)':
+..\main.cpp:43:25: warning: value computed is not used [-Wunused-value]
+   43 |                         *(counter)--;
+      |                         ^~~~~~~~~~~~
+g++ -o CSC450_Portfolio_Project_Part_1.exe main.o 
+Info: Nothing to build for CSC450_Portfolio_Project_Part_1
+07:46:35 **** Incremental Build of configuration Debug for project CSC450_Portfolio_Project_Part_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_Portfolio_Project_Part_1.exe main.o 
+Info: Nothing to build for CSC450_Portfolio_Project_Part_1
+19:30:46 **** Incremental Build of configuration Debug for project CSC450_Portfolio_Project_Part_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_Portfolio_Project_Part_1.exe main.o 
+Info: Nothing to build for CSC450_Portfolio_Project_Part_1
+19:59:48 **** Incremental Build of configuration Debug for project CSC450_Portfolio_Project_Part_1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o CSC450_Portfolio_Project_Part_1.exe main.o 
+Info: Nothing to build for CSC450_Portfolio_Project_Part_1
