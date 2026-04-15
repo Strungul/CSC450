@@ -1,2 +1,3 @@
-2026/03/16-23:04:10.233 2c4c Creating DB C:\Users\CWFoo\eclipse-workspace_cpp\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db since it was missing.
-2026/03/16-23:04:10.236 2c4c Reusing MANIFEST C:\Users\CWFoo\eclipse-workspace_cpp\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
+2026/04/10-22:43:56.475 5f74 Reusing MANIFEST C:\Users\CWFoo\eclipse-workspace_cpp\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/MANIFEST-000001
+2026/04/10-22:43:56.476 5f74 Recovering log #3
+2026/04/10-22:43:56.476 5f74 Reusing old log C:\Users\CWFoo\eclipse-workspace_cpp\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db/000003.log 
